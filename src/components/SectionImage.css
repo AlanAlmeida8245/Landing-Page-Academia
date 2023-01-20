@@ -1,0 +1,112 @@
+
+
+
+.sessao-topo{
+    max-width: 100%;
+    height: 100%;
+    background: rgb(66,39,90);
+    background: linear-gradient(90deg, rgba(66,39,90,1) 0%, rgba(115,75,109,1) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+.sessao-topo h1{
+    font-family: 'Inter', sans-serif;
+    color: aliceblue;
+    font-size: 5em;
+    text-align: center;
+    
+  
+}
+
+.sessao-topo span{
+    color: orange;
+}
+
+.sessao-topo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: lightgray;
+    font-size: 20px;
+    text-align: center;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin: 0.7em;
+
+}
+.img img{
+    max-width: 500px;
+}
+
+@media (max-width: 1203px) {
+    
+    .sessao-topo h1{
+        font-size: 3em;
+    }
+    .img img{
+        width: 400px;
+        justify-content: center;
+    }
+}
+@media (max-width: 700px) {
+    .sessao-topo h1{
+        font-size: 1.8em;
+    }
+    .info-principal p{
+        font-size: 1em;
+    }
+    
+}
+
+@media (max-width: 520px) {
+    .sessao-topo{
+        display: block;
+    }
+    .img img{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .sessao-topo h1{
+        font-size: 1.8em;
+    }
+    .info-principal p{
+        font-size: 1em;
+    }
+     .botao{
+        padding: 10px;
+        
+    }
+    
+
+}
+
+@media (max-width: 440px) {
+    .sessao-topo h1{
+        font-size: 1.5em;
+    }
+    .info-principal p{
+        font-size: 0.9em;
+        
+    }
+    .botao{
+        padding: 10px;
+        position: sticky;
+        
+    }
+    .img{
+        
+      
+        width: 100%;
+    }
+    img{
+        margin: 0 auto;
+    }
+    
+}

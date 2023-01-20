@@ -1,0 +1,11 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600&family=Rubik:ital@1&display=swap');
+
+    body{
+        background-color: rgb(236, 236, 236);
+    }
+
+    *{
+        scroll-behavior: auto;
+        scroll-behavior: smooth;
+    }

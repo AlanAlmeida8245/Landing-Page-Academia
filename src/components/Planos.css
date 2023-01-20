@@ -1,0 +1,88 @@
+
+.container-planos{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+    
+}
+
+.container-planos h1{
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    margin: 0.5em;
+    
+}
+
+.Card-basico{
+    border: 2px solid rgba(107, 107, 107, 0.753);
+    width: 20em;
+    height: 100%;
+    background: rgb(66,39,90);
+    background: linear-gradient(90deg, rgba(66,39,90,1) 0%, rgba(115,75,109,1));
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin: 10px;
+
+}
+.Card-basico:hover{
+    transition: 0.5s;
+    scale: 1.1;
+}
+
+
+.Card-basico h1{
+    color: #fff;
+    margin-bottom: -0.5px;
+}
+
+.subtitulo{
+    color: lightgray;
+    font-family: "inter";
+    text-align: center;
+}
+
+
+.Card-basico p{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.titulo-card{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.body-card{
+    text-align: center;
+   
+}
+.preço{
+    color: lightgreen;
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+}
+.Botão{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.tittle{
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 4em;
+    padding: 20px;
+    margin: 20px;
+    color: orange;
+    background-color: rgb(236, 236, 236);
+}

@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0; 
+    
+}
+
+.icon-hamburguer{
+    display: none;
+    color: #fff;
+    padding: 20px;
+    
+}
+.barra{
+    max-width: 100%;
+    background: rgb(66,39,90);
+    background: linear-gradient(90deg, rgba(66,39,90,1) 0%, rgba(115,75,109,1));
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    color: #fff;
+    font-family: "inter";
+}
+
+li a {
+    padding: 15px;
+}
+
+a{
+    display: flex;
+    transition: 0.5s;
+    color: #fff;
+    font-family: "inter";
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover{
+
+    transition: 0.5s;
+    background-color: purple;
+    border-bottom: 3px solid #fff;
+   
+}
+
+.logo2{
+        padding: 10px;
+        margin-top: -15px;
+}
+.sidebar{
+    width: 150px;
+    height:  100%;
+    background-color: rgba(0, 0, 0, 0.795);
+    position: absolute;
+    transition: 0.5s;
+    transition: 0.5s;
+    left: -160px;
+    color: white;
+    font-family: "inter";
+    position: fixed;
+}
+.logo2 h1{
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    color: #fff;
+    border-bottom: 2px solid orange;
+    width: 200px;
+    font-size: 25px;
+    padding-top: 20px;
+
+}
+.logo2 span{
+    color: orange
+}
+
+
+@media (max-width: 650px) {
+    ul{
+        display: none;
+    }
+    .icon-hamburguer{
+        display: block;
+        cursor: pointer;
+      
+    }
+    .sidebar{
+        width: 150px;
+        left: 0px;
+        transition: 0.5s;
+        
+    }
+    
+}
+
+.sidebar-options{
+    display: block;
+}
