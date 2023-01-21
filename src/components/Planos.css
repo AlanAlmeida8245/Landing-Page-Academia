@@ -86,3 +86,10 @@
     color: orange;
     background-color: rgb(236, 236, 236);
 }
+
+@media screen and (max-width: 650px) {
+    .Card-basico:hover{
+        scale: unset;
+    }
+    
+}

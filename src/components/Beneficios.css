@@ -44,5 +44,12 @@
     }
 }
 
+@media screen and (max-width: 650px) {
+    .beneficios-card:hover{
+        scale: unset;
+    }
+    
+}
+
    
 

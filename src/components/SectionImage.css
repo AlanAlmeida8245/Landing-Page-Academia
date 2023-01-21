@@ -84,8 +84,8 @@
         
     }
     
-
 }
+
 
 @media (max-width: 440px) {
     .sessao-topo h1{
@@ -93,20 +93,17 @@
     }
     .info-principal p{
         font-size: 0.9em;
-        
     }
     .botao{
         padding: 10px;
         position: sticky;
-        
     }
-    .img{
-        
-      
+    .img{   
         width: 100%;
+       
     }
-    img{
-        margin: 0 auto;
+    .img img{
+        display: none;
     }
     
 }
