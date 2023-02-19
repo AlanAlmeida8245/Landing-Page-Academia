@@ -65,6 +65,7 @@ a:hover{
     color: white;
     font-family: "inter";
     position: fixed;
+    z-index: 1;
 }
 .logo2 h1{
     font-family: "inter", Arial, Helvetica, sans-serif;
